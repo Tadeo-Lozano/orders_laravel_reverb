@@ -57,8 +57,13 @@ Eso inicia:
 - `php artisan serve`
 - `php artisan reverb:start`
 - `php artisan queue:listen`
-- `php artisan pail`
 - `npm run dev`
+
+En Windows, `Pail` no entra en el arranque por defecto porque depende de `pcntl`. Si quieres seguir logs en un entorno compatible, ejecútalo aparte con:
+
+```bash
+composer logs
+```
 
 ## Ngrok
 
